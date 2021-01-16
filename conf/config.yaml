@@ -1,0 +1,13 @@
+operation_business_weekly:
+    server: xx.xx.xx.xx(ip地址)
+    user: username(用户名)
+    passwd: password(密码)
+    database: 数据库名
+    port: 3306(端口号)
+
+operation_business_weekly_logger:
+    name: operation_business_weekly  # DEFAULT default
+    path: 日志存储路径  # DEFAULT .
+    stream: True
+    stream_level: logging.DEBUG
+    file_level: logging.INFO

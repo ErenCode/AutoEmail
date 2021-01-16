@@ -1,0 +1,1 @@
+0 14 * * 1 sudo sh /AutoEmail_github/scripts/auto_email.sh >> /dev/null 2>&1
